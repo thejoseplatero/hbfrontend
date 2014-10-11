@@ -30,12 +30,13 @@ $color-tertiary   : $yellow;
 
 $color-shadow     : rgba($green, .2);
 
-// UI Colors
+// U Colors
+ $ui-colors: (
+    d : $red,
+    s : $green,
+    e : $yellow
+  );
 
-// $ui-colors: (
-//   success : $green,
-//   error   : $gray
-// );
 
 
 // Text
