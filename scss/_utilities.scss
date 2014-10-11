@@ -1,0 +1,46 @@
+//======================
+//  Utilities
+//======================
+
+@if variable-exists($font-url--google){
+  @import url($font-url--google);
+}
+
+// Calculate em values
+
+@function em($target, $context: $base__font-size) {
+  @return ($target / $context) * 1em;
+}
+
+
+//calculate rem values
+  @function rem-calc($target, $context: $base__font-size){
+    @return #{($target/$base__font-size)}rem;
+  }
+
+// Mixins
+
+
+//includes the fall back px declaration as well as the calculated rem value.
+  @mixin fontSize($size){
+    font-size: $size;
+    font-size: rem-calc($size);
+  }
+  
+
+
+@mixin img-replace($img, $w, $h, $disp: block) {
+  background-image: url('#{$path--rel}/#{$img}');
+  background-repeat: no-repeat;
+  width: $w;
+  height: $h;
+  display: $disp;
+}
+
+// @mixin bg-colors($map){
+//   @each $theme, $color in $map{
+//     &--#{theme}{
+//       background-color: $color;
+//     }
+//   }
+// }
