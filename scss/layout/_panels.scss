@@ -1,0 +1,14 @@
+//======================
+// Panels
+//======================
+
+
+.main-screen{
+  @include full-screen($color-brand);
+  padding: rem-calc(200px) 0;
+}
+
+.login-screen{
+  @include full-screen($color-primary);
+  padding: rem-calc(200px) 0;
+}

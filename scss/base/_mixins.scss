@@ -18,3 +18,27 @@
   display: $disp;
 }
 
+
+// full screen w/ custom color
+@mixin full-screen($color){
+  background: $color;
+  width: 100%;
+  height: 100%;
+  position: absolute; top: 0; left: 0;
+}
+
+// flat button w/ custom color and dimensions
+@mixin flat-button($color:$gray, $h:80px, $w:320px){
+  border: none;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  background-color: $color;
+  width: rem-calc($w);
+  height: rem-calc($h)
+
+}
+
+
+
+
