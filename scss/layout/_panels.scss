@@ -13,3 +13,11 @@
   padding: rem-calc(100px) 0;
   text-align: center;
 }
+
+.location-screen{
+  @extend .login-screen;
+}
+
+.rapid-fire-screen{
+  @extend .login-screen;
+}

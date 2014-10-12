@@ -1,0 +1,18 @@
+%arrow{
+  width: 0; 
+  height: 0; 
+  border-left: rem-calc(20px)solid transparent;
+  border-right: rem-calc(20px) solid transparent;
+}
+
+.arrow-up {
+  @extend %arrow;
+  border-bottom: rem-calc(20px) solid $color-brand;
+  margin:0 auto;
+}
+
+.arrow-down {
+  @extend %arrow;
+  border-top: rem-calc(20px) solid $color-brand;
+  margin:0 auto;
+}

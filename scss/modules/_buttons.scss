@@ -2,8 +2,12 @@
 
 /* Button Style */
 
+.btn{
+  @include flat-button();
+}
+
 .login__btn {
-  @extend %btn;
+  @extend .btn;
   color: $red;
   margin:rem-calc(20px) auto;
 }
@@ -11,4 +15,16 @@
 .login__btn--submit{
   @extend .login__btn;
   color:$green;
+}   
+
+.location__btn--save{
+  @extend .btn;
+  color:$green;
+  margin:rem-calc(20px) auto;
 }  
+
+.rapid-fire__btn{
+ @extend .login__btn;
+ background:$white;
+ color:black;
+}

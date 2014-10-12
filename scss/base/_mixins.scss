@@ -28,12 +28,12 @@
 }
 
 // flat button w/ custom color and dimensions
-@mixin flat-button($color:$gray, $h:80px, $w:320px){
+@mixin flat-button($bg:$gray, $h:80px, $w:320px){
   border: none;
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: $color;
+  background-color: $bg;
   width: rem-calc($w);
   height: rem-calc($h)
 
