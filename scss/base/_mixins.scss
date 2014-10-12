@@ -1,0 +1,19 @@
+
+// Mixins
+
+
+//includes the fall back px declaration as well as the calculated rem value.
+  @mixin fontSize($size){
+    font-size: $size;
+    font-size: rem-calc($size);
+  }
+  
+
+// image bg replace mixin
+@mixin img-replace($img, $w, $h, $disp: block) {
+  background-image: url('#{$path--rel}/#{$img}');
+  background-repeat: no-repeat;
+  width: $w;
+  height: $h;
+  display: $disp;
+}
