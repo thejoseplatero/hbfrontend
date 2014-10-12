@@ -9,20 +9,26 @@
 
 
 <div class="login-screen">
-  <button class="login-btn ">
+  <button class="login__btn ">
     Make An account
   </button>
 
-  <button class="login-btn ">
+  <button class="login__btn ">
     Login with Google
   </button>
-  
+
   <p>OR</p>
 
   <form action="login">
-    Email <input type="text" name="email"><br>
-    Password <input type="text" name="password"><br>
-    <input type="submit" value="Submit">
+  <p>
+    <!-- <label for="username" name="uname"> Your Email </label>
+ -->    <input class="login__input" id="username" name="username" required="required" type="text" placeholder="Email"/>
+  </p>
+  <p>
+   <!--  <label for="password" name='yourpasswd'> Your Password</label> -->
+    <input class="login__input" id="password" name "password" required="required" type="password" placeholder="Password">
+  </p>
+  
   </form>
 
   

@@ -12,18 +12,38 @@ body{
 
  
 }
-h1{
-  font-size: rem-calc(40px);
 
+/**** Input & Placeholder  ****/
+
+/* placeholder */
+::-webkit-input-placeholder  { 
+    @include input-ph-style($gray, $white);
 }
 
-p{
-   font-size: rem-calc(40px);
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+    @include input-ph-style($gray, $white);
+} 
+
+/* Input fields */
+input {
+  outline: none;
+  border:none;
 }
 
 
+// h1{
+//   font-size: rem-calc(40px);
+
+// }
+
+// p{
+//    font-size: rem-calc(40px);
+// }
 
 
-h1 {
-  @include fontSize(72px);
-}
+
+
+// h1 {
+//   @include fontSize(72px);
+// }

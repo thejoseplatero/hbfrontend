@@ -1,0 +1,9 @@
+
+.login__input{
+  @include input-style(320px, 60px);
+  margin: 0 auto;
+  padding: rem-calc(10px);
+}
+
+
+

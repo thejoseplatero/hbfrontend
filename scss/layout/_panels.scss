@@ -11,4 +11,5 @@
 .login-screen{
   @include full-screen($color-primary);
   padding: rem-calc(200px) 0;
+  text-align: center;
 }

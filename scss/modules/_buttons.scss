@@ -2,7 +2,7 @@
 
 /* Button Style */
 
-.login-btn {
+.login__btn {
   @extend %btn;
   color: $red;
   margin:rem-calc(20px) auto;

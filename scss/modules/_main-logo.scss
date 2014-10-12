@@ -1,5 +1,5 @@
 
-
+// Main Logo
 .main-logo{
   @include img-replace("logo.svg", rem-calc(200px), rem-calc(200px), block);
   margin: 0 auto;

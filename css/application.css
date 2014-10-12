@@ -376,18 +376,26 @@ body {
   line-height: 1.5;
   font-family: "Cabin", sans-serif; }
 
-h1 {
-  font-size: 2.5rem; }
+/**** Input & Placeholder  ****/
+/* placeholder */
+::-webkit-input-placeholder {
+  background: gray;
+  color: white;
+  font-style: italic; }
 
-p {
-  font-size: 2.5rem; }
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  background: gray;
+  color: white;
+  font-style: italic; }
 
-h1 {
-  font-size: 72px;
-  font-size: 4.5rem; }
+/* Input fields */
+input {
+  outline: none;
+  border: none; }
 
 .main-screen {
-  background: #ED573E;
+  background: #ed573e;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -396,13 +404,14 @@ h1 {
   padding: 12.5rem 0; }
 
 .login-screen {
-  background: #FFFFFF;
+  background: white;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  padding: 12.5rem 0; }
+  padding: 12.5rem 0;
+  text-align: center; }
 
 .main-logo {
   background-image: url("../img/logo.svg");
@@ -413,17 +422,24 @@ h1 {
   margin: 0 auto; }
 
 /* Button Style */
-.login-btn {
-  color: #ED573E;
+.login__btn {
+  color: #ed573e;
   margin: 1.25rem auto; }
 
-.login-btn {
+.login__input {
+  width: 20rem;
+  height: 3.75rem;
+  background: gray;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 0.625rem; }
+
+.login__btn {
   border: none;
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #808080;
+  background-color: gray;
   width: 20rem;
   height: 5rem; }
-
-/*# sourceMappingURL=application.css.map */

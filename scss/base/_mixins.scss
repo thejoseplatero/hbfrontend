@@ -3,7 +3,7 @@
 
 
 //includes the fall back px declaration as well as the calculated rem value.
-  @mixin fontSize($size){
+  @mixin font-size($size){
     font-size: $size;
     font-size: rem-calc($size);
   }
@@ -37,6 +37,23 @@
   width: rem-calc($w);
   height: rem-calc($h)
 
+}
+
+// Input Style
+
+@mixin input-style($w, $h, $bg:$gray, $color:$white) {
+  width: rem-calc($w);
+  height:rem-calc($h);
+  background: $bg;
+  color: $color;
+  display: block;
+  
+}
+
+@mixin input-ph-style($bg, $color:$white, $fs:italic) {
+  background: $bg;
+  color:$color;
+  font-style:$fs;
 }
 
 
