@@ -371,14 +371,35 @@ th {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Cabin", sans-serif; }
+
 h1 {
   font-size: em(40px); }
 
 p {
-  font-size: rem-calc(40px); }
+  font-size: 2.5rem; }
 
 h1 {
   font-size: 72px;
-  font-size: rem-calc(72px); }
+  font-size: 4.5rem; }
 
-/*# sourceMappingURL=application.css.map */
+.logo-container {
+  background: #ee4623;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 12.5rem 0; }
+
+.main-logo {
+  background-image: url("../img/logo.svg");
+  background-repeat: no-repeat;
+  width: 12.5rem;
+  height: 12.5rem;
+  display: inline-block;
+  margin: 0 auto; }

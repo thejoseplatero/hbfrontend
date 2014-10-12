@@ -1,0 +1,14 @@
+
+.logo-container{
+  background: $color-brand;
+  width: 100%;
+  height: 100%;
+  position: absolute; top: 0; left: 0;
+  text-align: center;
+  padding: rem-calc(200px) 0;
+}
+
+.main-logo{
+  @include img-replace("logo.svg", rem-calc(200px), rem-calc(200px), inline-block);
+  margin: 0 auto;
+}
