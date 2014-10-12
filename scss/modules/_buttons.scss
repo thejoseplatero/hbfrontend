@@ -7,3 +7,8 @@
   color: $red;
   margin:rem-calc(20px) auto;
 }
+
+.login__btn--submit{
+  @extend .login__btn;
+  color:$green;
+}  

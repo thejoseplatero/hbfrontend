@@ -410,7 +410,7 @@ input {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 12.5rem 0;
+  padding: 6.25rem 0;
   text-align: center; }
 
 .main-logo {
@@ -422,9 +422,12 @@ input {
   margin: 0 auto; }
 
 /* Button Style */
-.login__btn {
+.login__btn, .login__btn--submit {
   color: #ed573e;
   margin: 1.25rem auto; }
+
+.login__btn--submit {
+  color: #55e0b1; }
 
 .login__input {
   width: 20rem;
@@ -435,7 +438,7 @@ input {
   margin: 0 auto;
   padding: 0.625rem; }
 
-.login__btn {
+.login__btn, .login__btn--submit {
   border: none;
   cursor: pointer;
   display: block;
