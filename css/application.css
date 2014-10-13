@@ -379,13 +379,13 @@ body {
 /**** Input & Placeholder  ****/
 /* placeholder */
 ::-webkit-input-placeholder {
-  background: #808080;
+  background: #E6E6E6;
   color: #FFFFFF;
   font-style: italic; }
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  background: #808080;
+  background: #E6E6E6;
   color: #FFFFFF;
   font-style: italic; }
 
@@ -431,7 +431,7 @@ p {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #808080;
+  background-color: #E6E6E6;
   width: 20rem;
   height: 5rem; }
 
@@ -475,7 +475,7 @@ p {
 .login__input, .location__input, .address__input {
   width: 20rem;
   height: 3.75rem;
-  background: #808080;
+  background: #E6E6E6;
   color: #FFFFFF;
   display: block;
   margin: 0 auto;
@@ -493,7 +493,7 @@ p {
 
 .budget__limit-band {
   background: #FFFFFF;
-  color: #808080;
+  color: #E6E6E6;
   padding: 0.625rem; }
 
 .budget__limit-band p {
