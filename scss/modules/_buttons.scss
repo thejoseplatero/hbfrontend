@@ -33,11 +33,31 @@
  @include flat-button($blue, 100%);
  background:$blue;
  color:$white; 
- font-size: rem-calc(48px);
+ font-size: rem-calc($base__font-size--large);
 }
 
 .budget__btn{
   @include flat-button($white, 100%);
-  font-size: rem-calc(48px);
+  font-size: rem-calc($base__font-size--large);
 }
 
+.feedme__btn{
+  @include flat-button($blue, 100%);
+  background:$blue;
+  color:$white; 
+  font-size: rem-calc($base__font-size--large);
+}
+
+.profile__btn{
+  @include flat-button($color-brand, 33.33%, rem-calc(160px));
+  color:$white; 
+  float:left
+}
+
+.profile__btn--two{
+  @extend .profile__btn;
+}
+
+.profile__btn--three{
+  @extend .profile__btn;
+}
