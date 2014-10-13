@@ -379,14 +379,14 @@ body {
 /**** Input & Placeholder  ****/
 /* placeholder */
 ::-webkit-input-placeholder {
-  background: gray;
-  color: white;
+  background: #808080;
+  color: #FFFFFF;
   font-style: italic; }
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  background: gray;
-  color: white;
+  background: #808080;
+  color: #FFFFFF;
   font-style: italic; }
 
 /* Input fields */
@@ -394,8 +394,12 @@ input {
   outline: none;
   border: none; }
 
+p {
+  font-size: 1rem;
+  margin: 0.125rem; }
+
 .main-screen {
-  background: #ed573e;
+  background: #ED573E;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -403,8 +407,8 @@ input {
   left: 0;
   padding: 12.5rem 0; }
 
-.login-screen, .location-screen, .rapid-fire-screen {
-  background: white;
+.login-screen, .location-screen, .rapid-fire-screen, .planr-screen, .budget-screen, .delivery-screen {
+  background: #FFFFFF;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -427,38 +431,73 @@ input {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: gray;
+  background-color: #808080;
   width: 20rem;
   height: 5rem; }
 
 .login__btn, .login__btn--submit, .rapid-fire__btn {
-  color: #ed573e;
+  color: #ED573E;
   margin: 1.25rem auto; }
 
 .login__btn--submit {
-  color: #55e0b1; }
+  color: #55E0B1; }
 
 .location__btn--save {
-  color: #55e0b1;
+  color: #55E0B1;
   margin: 1.25rem auto; }
 
 .rapid-fire__btn {
-  background: white;
+  background: #FFFFFF;
   color: black; }
 
-.login__input, .location__input {
+.planr__btn {
+  border: none;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  background-color: #19293A;
+  width: 100%;
+  height: 5rem;
+  background: #19293A;
+  color: #FFFFFF;
+  font-size: 3rem; }
+
+.budget__btn {
+  border: none;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 5rem;
+  font-size: 3rem; }
+
+.login__input, .location__input, .address__input {
   width: 20rem;
   height: 3.75rem;
-  background: gray;
-  color: white;
+  background: #808080;
+  color: #FFFFFF;
   display: block;
   margin: 0 auto;
   padding: 0.625rem; }
 
 .rapid-fire__divider {
-  background: #ed573e;
-  padding: 1.25rem;
-  color: white; }
+  background: #ED573E;
+  color: #FFFFFF;
+  padding: 1.25rem; }
+
+.planr__time-band {
+  background: #ED573E;
+  color: #FFFFFF;
+  padding: 0.625rem; }
+
+.budget__limit-band {
+  background: #FFFFFF;
+  color: #808080;
+  padding: 0.625rem; }
+
+.budget__limit-band p {
+  font-size: 4.5rem; }
 
 .arrow-up, .arrow-down {
   width: 0;
@@ -467,9 +506,11 @@ input {
   border-right: 1.25rem solid transparent; }
 
 .arrow-up {
-  border-bottom: 1.25rem solid #ed573e;
+  border-bottom: 1.25rem solid #ED573E;
   margin: 0 auto; }
 
 .arrow-down {
-  border-top: 1.25rem solid #ed573e;
+  border-top: 1.25rem solid #ED573E;
   margin: 0 auto; }
+
+/*# sourceMappingURL=application.css.map */

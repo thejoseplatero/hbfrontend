@@ -28,3 +28,16 @@
  background:$white;
  color:black;
 }
+
+.planr__btn{
+ @include flat-button($blue, 100%);
+ background:$blue;
+ color:$white; 
+ font-size: rem-calc(48px);
+}
+
+.budget__btn{
+  @include flat-button($white, 100%);
+  font-size: rem-calc(48px);
+}
+

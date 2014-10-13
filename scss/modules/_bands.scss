@@ -1,0 +1,18 @@
+.rapid-fire__divider{
+  @include band($color-brand, $white);
+  padding:rem-calc(20px);
+}
+
+.planr__time-band{
+  @include band($color-brand, $white);
+  padding:rem-calc(10px);
+}
+
+.budget__limit-band{
+  @include band($color-primary, $gray);
+  padding:rem-calc(10px);
+}
+
+.budget__limit-band p{
+   font-size: rem-calc(72px);
+}
