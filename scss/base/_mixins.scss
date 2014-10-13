@@ -42,23 +42,30 @@
 // Input Style
 
 @mixin input-style($w, $h, $bg:$gray, $color:$white) {
-  width: rem-calc($w);
-  height:rem-calc($h);
+  width: $w;
+  height: $h;
   background: $bg;
   color: $color;
   display: block;
   
 }
 
-@mixin input-ph-style($bg, $color:$white, $fs:italic) {
+@mixin input-ph-style($bg, $color) {
   background: $bg;
   color:$color;
-  font-style:$fs;
 }
 
 @mixin band($bg, $color){
   background:$bg;
   color:$color;
+}
+
+
+// Utilities
+// Import google font
+
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
 }
 
 

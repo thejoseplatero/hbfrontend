@@ -4,6 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("http://fonts.googleapis.com/css?family=Cabin");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -380,23 +381,32 @@ body {
 /* placeholder */
 ::-webkit-input-placeholder {
   background: #E6E6E6;
-  color: #FFFFFF;
-  font-style: italic; }
+  color: #FFFFFF; }
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   background: #E6E6E6;
-  color: #FFFFFF;
-  font-style: italic; }
+  color: #FFFFFF; }
 
 /* Input fields */
 input {
   outline: none;
   border: none; }
 
-p {
-  font-size: 1rem;
-  margin: 0.125rem; }
+h1 {
+  font-size: 4.1875rem; }
+
+h2 {
+  font-size: 3.125rem; }
+
+h3 {
+  font-size: 2.3125rem; }
+
+h4 {
+  font-size: 1.3125rem; }
+
+small {
+  font-size: 0.75rem; }
 
 .main-screen {
   background: #ED573E;
@@ -405,7 +415,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 12.5rem 0; }
+  margin: 0 auto;
+  padding: 6.25rem 0; }
 
 .login-screen, .location-screen, .rapid-fire-screen, .planr-screen, .budget-screen, .delivery-screen {
   background: #FFFFFF;
@@ -414,6 +425,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
+  margin: 0 auto;
   padding: 6.25rem 0;
   text-align: center; }
 
@@ -473,8 +485,8 @@ p {
   font-size: 3rem; }
 
 .login__input, .location__input, .address__input {
-  width: 20rem;
-  height: 3.75rem;
+  width: 320px;
+  height: 60px;
   background: #E6E6E6;
   color: #FFFFFF;
   display: block;

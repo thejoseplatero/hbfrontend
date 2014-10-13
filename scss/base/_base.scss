@@ -31,20 +31,29 @@ input {
   border:none;
 }
 
+h1{
+  font-size: rem-calc($base__font-size--xxlarge);
+}
 
-// h1{
-//   font-size: rem-calc(40px);
+h2{
+  font-size: rem-calc($base__font-size--xlarge);
 
-// }
+}
 
-p{
-   font-size: rem-calc(16px);
-   margin:rem-calc(2px);
+h3{
+  font-size: rem-calc($base__font-size--large);
+
+}
+
+h4{
+  font-size: rem-calc($base__font-size--medium);
+}
+
+small{
+  font-size: rem-calc($base__font-size--small);
 }
 
 
 
 
-// h1 {
-//   @include fontSize(72px);
-// }
+
