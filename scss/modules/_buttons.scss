@@ -14,12 +14,12 @@
 
 .login__btn--submit{
   @extend .login__btn;
-  color:$green;
+  color:$teal;
 }   
 
 .location__btn--save{
   @extend .btn;
-  color:$green;
+  color:$teal;
   margin:rem-calc(20px) auto;
 }  
 

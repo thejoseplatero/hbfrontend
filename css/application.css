@@ -429,6 +429,9 @@ small {
   padding: 6.25rem 0;
   text-align: center; }
 
+.rapid-fire-screen {
+  padding: 0; }
+
 .main-logo {
   background-image: url("../img/logo.svg");
   background-repeat: no-repeat;
@@ -452,10 +455,10 @@ small {
   margin: 1.25rem auto; }
 
 .login__btn--submit {
-  color: #55E0B1; }
+  color: #29E2BF; }
 
 .location__btn--save {
-  color: #55E0B1;
+  color: #29E2BF;
   margin: 1.25rem auto; }
 
 .rapid-fire__btn {
