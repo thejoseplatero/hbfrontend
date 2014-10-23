@@ -380,13 +380,13 @@ body {
 /**** Input & Placeholder  ****/
 /* placeholder */
 ::-webkit-input-placeholder {
-  background: #e6e6e6;
-  color: white; }
+  background: #E6E6E6;
+  color: #FFFFFF; }
 
 input:-moz-placeholder,
 textarea:-moz-placeholder {
-  background: #e6e6e6;
-  color: white; }
+  background: #E6E6E6;
+  color: #FFFFFF; }
 
 /* Input fields */
 input {
@@ -409,7 +409,7 @@ small {
   font-size: 0.75rem; }
 
 .main-screen {
-  background: #ed573e;
+  background: #ED573E;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -419,7 +419,7 @@ small {
   padding: 6.25rem 0; }
 
 .login-screen, .location-screen, .rapid-fire-screen, .planr-screen, .budget-screen, .delivery-screen {
-  background: white;
+  background: #FFFFFF;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -443,23 +443,23 @@ small {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #e6e6e6;
+  background-color: #E6E6E6;
   width: 20rem;
   height: 5rem; }
 
 .login__btn, .login__btn--submit, .rapid-fire__btn {
-  color: #ed573e;
+  color: #ED573E;
   margin: 1.25rem auto; }
 
 .login__btn--submit {
-  color: #55e0b1; }
+  color: #55E0B1; }
 
 .location__btn--save {
-  color: #55e0b1;
+  color: #55E0B1;
   margin: 1.25rem auto; }
 
 .rapid-fire__btn {
-  background: white;
+  background: #FFFFFF;
   color: black; }
 
 .planr__btn {
@@ -467,11 +467,11 @@ small {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #19293a;
+  background-color: #19293A;
   width: 100%;
   height: 5rem;
-  background: #19293a;
-  color: white;
+  background: #19293A;
+  color: #FFFFFF;
   font-size: 2.3125rem; }
 
 .budget__btn {
@@ -479,7 +479,7 @@ small {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   height: 5rem;
   font-size: 2.3125rem; }
@@ -489,11 +489,11 @@ small {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #19293a;
+  background-color: #19293A;
   width: 100%;
   height: 5rem;
-  background: #19293a;
-  color: white;
+  background: #19293A;
+  color: #FFFFFF;
   font-size: 2.3125rem; }
 
 .profile__btn, .profile__btn--two, .profile__btn--three {
@@ -501,34 +501,34 @@ small {
   cursor: pointer;
   display: block;
   outline: none;
-  background-color: #ed573e;
+  background-color: #ED573E;
   width: 33.33%;
   height: 10rem;
-  color: white;
+  color: #FFFFFF;
   float: left; }
 
 .login__input, .location__input, .address__input {
   width: 320px;
   height: 60px;
-  background: #e6e6e6;
-  color: white;
+  background: #E6E6E6;
+  color: #FFFFFF;
   display: block;
   margin: 0 auto;
   padding: 0.625rem; }
 
 .rapid-fire__divider {
-  background: #ed573e;
-  color: white;
+  background: #ED573E;
+  color: #FFFFFF;
   padding: 1.25rem; }
 
 .planr__time-band {
-  background: #ed573e;
-  color: white;
+  background: #ED573E;
+  color: #FFFFFF;
   padding: 0.625rem; }
 
 .budget__limit-band {
-  background: white;
-  color: #e6e6e6;
+  background: #FFFFFF;
+  color: #E6E6E6;
   padding: 0.625rem; }
 
 .budget__limit-band p {
@@ -541,9 +541,11 @@ small {
   border-right: 0.625rem solid transparent; }
 
 .arrow-up {
-  border-bottom: 1.25rem solid #ed573e;
+  border-bottom: 1.25rem solid #ED573E;
   margin: 0 auto; }
 
 .arrow-down {
-  border-top: 1.25rem solid #ed573e;
+  border-top: 1.25rem solid #ED573E;
   margin: 0 auto; }
+
+/*# sourceMappingURL=application.css.map */
