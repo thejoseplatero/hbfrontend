@@ -9,9 +9,26 @@
 <body>
 
 
-<div class="login-screen fadeIn">
 
-    <div class="food_btn" style="padding: 60px 0px; background-color: #E6E6E6; width: 20rem; margin: 15px auto">
+<div class="three-choices-screen fadeIn">
+  <button class="three-choices__btn">
+        Order 1<br>
+        Lorem ipsum<br>
+        Lorem ipsum
+  </button>
+
+  <button class="three-choices__btn">
+       Order 2<br>
+       Lorem ipsum<br>
+       Lorem ipsum
+
+  <button class="three-choices__btn">
+        Order 3<br>
+        Lorem ipsum<br>
+        Lorem ipsum
+  </button>
+
+<!--     <div class="food_btn" style="padding: 60px 0px; background-color: #E6E6E6; width: 20rem; margin: 15px auto">
       Order 1<br>
       Lorem ipsum<br>
       Lorem ipsum
@@ -27,7 +44,7 @@
       Order 3<br>
       Lorem ipsum<br>
       Lorem ipsum
-    </div>
+    </div> -->
 
 
 
@@ -39,8 +56,8 @@
 <script>
 
 $(document).ready(function(){
-  $(".food_btn").click(function(){
-    $(".food_btn").removeClass("selectthis");
+  $(".three-choices__btn").click(function(){
+    $(".three-choices__btn").removeClass("selectthis");
     $(this).addClass("selectthis");
   });
 });

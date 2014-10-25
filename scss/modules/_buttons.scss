@@ -61,3 +61,14 @@
 .profile__btn--three{
   @extend .profile__btn;
 }
+
+.three-choices__btn{
+  @include flat-button($gray, rem-calc(320px));
+  padding: rem-calc(60px) 0; 
+  margin: rem-calc(15px) auto;
+
+}
+
+.choose-adventure__btn{
+  @extend .login__btn;
+}

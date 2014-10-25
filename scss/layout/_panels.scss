@@ -36,3 +36,11 @@
 .delivery-screen{
   @extend .login-screen;
 }
+
+.three-choices-screen{
+  @extend .login-screen;
+}
+
+.choose-adventure-screen{
+  @extend .login-screen;
+}
