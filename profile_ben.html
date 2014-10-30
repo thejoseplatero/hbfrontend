@@ -11,7 +11,7 @@
 <body class="red_bg">
 
 <div class="profile-photo">
-  <img src="img/kathrina.png" style="width: 100%;">
+  <img src="img/ben.jpg" style="width: 100%;">
 </div>
 
 
@@ -75,20 +75,15 @@
     <i class="fa fa-arrow-circle-o-left fa-2x"></i>
   </div>
   <div class="order-container">
-    <h3 style="margin-bottom: 0;">Hi Kathrina</h3>
+    <h3 style="margin-bottom: 0;">Hi Ben</h3>
     <p>Here is a summary of your order:</p>
     <div class="order-box first-box">
-      <div class="box-line-1">
-        You chose:
-      </div>
       <div class="box-line-2">
-        Chicken Ramen
+        You chose to be surprised!
       </div>
-      <div class="box-line-3">from</div>
-      <div class="box-line-2">
-        Momofuku
+      <div class="box-line-4">
+        Want to see options? <strong>Enable Trio Mode</strong>
       </div>
-
     </div>
 
     <div class="order-box second-box">
@@ -96,7 +91,7 @@
         Cost:
       </div>
       <div class="box-line-2">
-        $14.00
+        $16.45
       </div>
     </div>
 
@@ -119,15 +114,10 @@
 
 <script>
   $(".feedme__btn").on("click", function() {
-    $(".fade_fast").animate({opacity: 0}, 200);
-    $(".fade_slow").animate({opacity: 0}, 550, function() {
-      $(".three-choices").slideDown();  
+    $(".fade_fast").animate({opacity: 0}, 200, function() {
+      $(".profile-screen").animate({height: '100%'}, 500);
     });
-  });
-
-  $(".three-choices button").on("click", function() {
-    $(".three-choices button").removeClass("active_choice");
-    $(this).addClass("active_choice").animate({width: '110%', padding: '2rem auto', marginLeft: '-5%'}, 400, function() {
+    $(".fade_slow").animate({opacity: 0}, 550, function() {
       $(".order-summary").fadeIn(500, function() {
         $(".first-box").slideDown(250, function() {
           $(".second-box").slideDown(250, function() {
@@ -135,6 +125,12 @@
           });
         })
       });  
+    });
+  });
+
+  $(".three-choices button").on("click", function() {
+    $(".three-choices button").removeClass("active_choice");
+    $(this).addClass("active_choice").animate({width: '110%', padding: '2rem auto', marginLeft: '-5%'}, 400, function() {
     });
     
   });

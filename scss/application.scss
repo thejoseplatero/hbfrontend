@@ -21,3 +21,95 @@
 // ===================
 @import "states/index";
 
+.button-container button {
+  padding-top: 1rem;
+  padding-bottom: 1.75rem;
+}
+.button-container i {
+  padding-bottom: 7px;
+}
+
+.handlebar {
+  background: #FFF; 
+  color: #000; 
+  text-align: center;
+}
+
+.three-choices {
+  background: $blue;
+  border-top: 0.5rem solid #FFF;
+  color: #FFF;
+  
+  .choices-container {
+    text-align: center;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+  }
+  
+  button {
+    width: 100%;
+    outline: none;
+    background: $lighterblue;
+    border: 0;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.profile-screen {
+  background: $red;
+}
+
+
+.order-summary {
+  background: $red;
+
+  .top-white-bar {
+    background: #FFF;
+    padding: 0.5rem 1rem;
+  }
+
+  .order-container {
+    color: #FFF;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .order-box {
+    display: none;
+    background: $blue;
+    margin-bottom: 0.6rem;
+    padding: 0.4rem;
+    border-radius: 6px;
+
+    .box-line-1 {
+      font-weight: bold;
+      font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+    }
+    .box-line-2 {
+      font-size: 1.2rem;
+    }
+    .box-line-3 {
+      font-size: 0.8rem;
+    }    
+    .box-line-4 {
+      font-size: 0.7rem;
+      color: $teal;
+    }
+  }
+}
+
+.red_bg {
+  background-color: $red;
+}
+
+.active_choice {
+  background: $teal !important;
+}

@@ -43,9 +43,22 @@
 
 .feedme__btn{
   @include flat-button($blue, 100%);
-  background:$blue;
+  background:$teal;
   color:$white; 
-  font-size: rem-calc($base__font-size--large);
+  // font-size: rem-calc($base__font-size--large);
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.takemymoney__btn {
+  @include flat-button($blue, 100%);
+  background:$blue;
+  color:$teal; 
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // font-size: rem-calc($base__font-size--large);
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 .profile__btn{
@@ -54,12 +67,18 @@
   float:left
 }
 
+.profile__btn--one{
+  @extend .profile__btn;
+  background-color: $red-l;
+}
+
 .profile__btn--two{
   @extend .profile__btn;
 }
 
 .profile__btn--three{
   @extend .profile__btn;
+  background-color: $red-r;
 }
 
 .three-choices__btn{
